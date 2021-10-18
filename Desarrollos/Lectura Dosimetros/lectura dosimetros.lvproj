@@ -13,9 +13,9 @@
 		<Item Name="cursors.vi" Type="VI" URL="../cursors.vi"/>
 		<Item Name="export.vi" Type="VI" URL="../export.vi"/>
 		<Item Name="Global 1.vi" Type="VI" URL="../Global 1.vi"/>
-		<Item Name="graph_luz.vi" Type="VI" URL="../../../Users/pbellido/Desktop/Lectura Dosimetros/graph_luz.vi"/>
+		<Item Name="graph_luz.vi" Type="VI" URL="../../../../../Users/pbellido/Desktop/Lectura Dosimetros/graph_luz.vi"/>
 		<Item Name="graph_luz_y_temp.vi" Type="VI" URL="../graph_luz_y_temp.vi"/>
-		<Item Name="graph_temperature.vi" Type="VI" URL="../../../Users/pbellido/Desktop/Lectura Dosimetros/graph_temperature.vi"/>
+		<Item Name="graph_temperature.vi" Type="VI" URL="../../../../../Users/pbellido/Desktop/Lectura Dosimetros/graph_temperature.vi"/>
 		<Item Name="integrate.vi" Type="VI" URL="../integrate.vi"/>
 		<Item Name="luz_graph.vi" Type="VI" URL="../luz_graph.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
