@@ -10,14 +10,29 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="conversor de tramas.vi" Type="VI" URL="../../Lectura Dosimetros/conversor de tramas.vi"/>
-		<Item Name="Global 1.vi" Type="VI" URL="../Suvbis/Global 1.vi"/>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="msg.ctl" Type="VI" URL="../CTLs/msg.ctl"/>
-		<Item Name="prueba_com.vi" Type="VI" URL="../Suvbis/prueba_com.vi"/>
-		<Item Name="prueba_com_write.vi" Type="VI" URL="../Suvbis/prueba_com_write.vi"/>
-		<Item Name="read_mod.vi" Type="VI" URL="../Suvbis/read_mod.vi"/>
-		<Item Name="write_mod.vi" Type="VI" URL="../Suvbis/write_mod.vi"/>
+		<Item Name="Comunicacion" Type="Folder">
+			<Item Name="close_lynx.vi" Type="VI" URL="../Subvis/close_lynx.vi"/>
+			<Item Name="conversor de tramas.vi" Type="VI" URL="../Subvis/conversor de tramas.vi"/>
+			<Item Name="init_lynx.vi" Type="VI" URL="../Subvis/init_lynx.vi"/>
+			<Item Name="main.vi" Type="VI" URL="../Subvis/main.vi"/>
+			<Item Name="prueba_com.vi" Type="VI" URL="../Subvis/prueba_com.vi"/>
+			<Item Name="prueba_com_write.vi" Type="VI" URL="../Subvis/prueba_com_write.vi"/>
+			<Item Name="read_mod.vi" Type="VI" URL="../Subvis/read_mod.vi"/>
+			<Item Name="write_mod.vi" Type="VI" URL="../Subvis/write_mod.vi"/>
+		</Item>
+		<Item Name="Representacion" Type="Folder">
+			<Item Name="cursors.vi" Type="VI" URL="../Subvis/cursors.vi"/>
+			<Item Name="export.vi" Type="VI" URL="../Subvis/export.vi"/>
+			<Item Name="Global 1.vi" Type="VI" URL="../Subvis/Global 1.vi"/>
+			<Item Name="graph_luz.vi" Type="VI" URL="../Subvis/graph_luz.vi"/>
+			<Item Name="graph_luz_y_temp.vi" Type="VI" URL="../Subvis/graph_luz_y_temp.vi"/>
+			<Item Name="graph_temperature.vi" Type="VI" URL="../Subvis/graph_temperature.vi"/>
+			<Item Name="integrate.vi" Type="VI" URL="../Subvis/integrate.vi"/>
+			<Item Name="luz_graph.vi" Type="VI" URL="../Subvis/luz_graph.vi"/>
+			<Item Name="main_representacion.vi" Type="VI" URL="../Subvis/main_representacion.vi"/>
+			<Item Name="temp_graph.vi" Type="VI" URL="../Subvis/temp_graph.vi"/>
+		</Item>
+		<Item Name="main_prototipo.vi" Type="VI" URL="../main_prototipo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -44,6 +59,8 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -57,7 +74,14 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="msg.ctl" Type="VI" URL="../Ctls/msg.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
