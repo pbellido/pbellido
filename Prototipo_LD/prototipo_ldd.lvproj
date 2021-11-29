@@ -11,8 +11,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Comunicacion" Type="Folder">
+			<Item Name="bucle_medida_luz.vi" Type="VI" URL="../Subvis/bucle_medida_luz.vi"/>
 			<Item Name="close_lynx.vi" Type="VI" URL="../Subvis/close_lynx.vi"/>
 			<Item Name="conversor de tramas.vi" Type="VI" URL="../Subvis/conversor de tramas.vi"/>
+			<Item Name="filter_temp_pot.vi" Type="VI" URL="../Subvis/filter_temp_pot.vi"/>
+			<Item Name="global_raw.vi" Type="VI" URL="../Subvis/ctls y global/global_raw.vi"/>
 			<Item Name="init_lynx.vi" Type="VI" URL="../Subvis/init_lynx.vi"/>
 			<Item Name="main.vi" Type="VI" URL="../Subvis/main.vi"/>
 			<Item Name="prueba_com.vi" Type="VI" URL="../Subvis/prueba_com.vi"/>
@@ -23,6 +26,7 @@
 		<Item Name="Representacion" Type="Folder">
 			<Item Name="cursors.vi" Type="VI" URL="../Subvis/cursors.vi"/>
 			<Item Name="export.vi" Type="VI" URL="../Subvis/export.vi"/>
+			<Item Name="filter_luz.vi" Type="VI" URL="../Subvis/filter_luz.vi"/>
 			<Item Name="Global 1.vi" Type="VI" URL="../Subvis/Global 1.vi"/>
 			<Item Name="graph_luz.vi" Type="VI" URL="../Subvis/graph_luz.vi"/>
 			<Item Name="graph_luz_y_temp.vi" Type="VI" URL="../Subvis/graph_luz_y_temp.vi"/>
@@ -34,6 +38,11 @@
 		</Item>
 		<Item Name="main_prototipo.vi" Type="VI" URL="../main_prototipo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
+				<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/End of Line Constant (bug fix).vi"/>
+				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
